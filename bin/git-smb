@@ -78,7 +78,7 @@ def call_git(sounds, argv):
         if argument_length is 0:
             return False
 
-        sound = what_sound_on_error(sounds, argv[2])
+        sound = what_sound_on_error(sounds, argv[1])
         if sound is not None:
             play(sound)
 
